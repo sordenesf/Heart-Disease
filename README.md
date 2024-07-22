@@ -20,7 +20,7 @@ Aproximadamente 1 de cada 5 personas en Estados Unidos murió a causa de una enf
 
 Previo a la etapa de modelación, se estudiaron las características del conjuntos de datos buscando identificar patrones en los mismo. Entre las variables que resaltan del estudio se encuentran la edad, sexo, índice de masa corporal, piezas dentales removidas, entre otras:
 
-![Incidencia por edad y piezas dentales removidas](/img/Incidencia por edad y dientes removidos.png "Incidencia por edad y piezas dentales removidas")
+![Incidencia por edad y piezas dentales removidas](/img/Incidencia_por_edad_y_dientes_removidos.PNG "Incidencia por edad y piezas dentales removidas")
 
 
 
