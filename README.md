@@ -13,6 +13,7 @@ Se entiende por "enfermedad cardíaca" a un variado grupo de afecciones cardíac
 - Enfermedad de las válvulas cardíacas
 
 Lamentablemente, en muchos casos la Enfermedad cardíaca se manifiesta en forma silenciosa y no se diagnostica hasta que la persona experimenta signos o síntomas de un ataque cardíaco, insuficiencia cardíaca o arritmia. En este sentido, resulta de gran ayuda establecer el riesgo de enfermedad cardíaca para actuar sobre los factores de riesgo con la finalidad de prevenir enfermedad o muerte.
+
 Aproximadamente 1 de cada 5 personas en Estados Unidos murió a causa de una enfermedad cardíaca en 2022<sup>2</sup>
 
 
