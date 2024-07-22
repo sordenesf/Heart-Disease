@@ -5,7 +5,7 @@ Los datos utilizados para el entrenamiento del modelo pueden ser consultados des
 https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/ bajo licencia CC0: Public Domain
 
 # ¿QUÉ ES ENFERMDAD CARDÍACA? IMPORTANCIA DE DETECTARLA A TIEMPO
-Se entiende por "enfermedad cardíaca" a un variado grupo de afecciones cardíacas^1: 
+Se entiende por "enfermedad cardíaca" a un variado grupo de afecciones cardíacas: cardíacas<sup>1</sup>O
 - Enfermedad de los vasos sanguíneos, como enfermedad de las arterias coronarias
 - Latidos cardíacos irregulares (arritmia)
 - Problemas cardíacos de nacimiento (defectos cardíacos congénitos)
