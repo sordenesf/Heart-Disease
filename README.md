@@ -18,11 +18,26 @@ Aproximadamente 1 de cada 5 personas en Estados Unidos murió a causa de una enf
 
 # MODELO
 
-Previo a la etapa de modelación, se estudiaron las características del conjuntos de datos buscando identificar patrones en los mismo. Entre las variables que resaltan del estudio se encuentran la edad, sexo, índice de masa corporal, piezas dentales removidas, entre otras:
+Previo a la etapa de modelación, se estudiaron las características del conjuntos de datos buscando identificar patrones. Entre las variables que resaltan del estudio se encuentran la edad, sexo, índice de masa corporal, piezas dentales removidas, entre otras:
 
 ![Incidencia por edad y piezas dentales removidas](/img/Incidencia_por_edad_y_dientes_removidos.PNG "Incidencia por edad y piezas dentales removidas")
 
+Los modelos propuestos fueron los siguientes:
+- Regresión logística
+- Decision tree
+- Random Forest
+- XGBoost
+- LGBM
 
+En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dataset. Una vez realizadas, se seleccionó la configuración con las mejores métricas de cada uno de ellos para, posteriormente, continuar con la optimización de hiperparámetros:
+
+| MODELO                 | Accuracy | Recall   | Precision | F1 score | ROC AUC    |
+|------------------------|----------|----------|-----------|----------|------------|
+| Regresión logística    | 0,948    | 0,253    | 0,253     | 0,253    | 0,253      |            
+| Decision tree          | 0,917    | 0,284    | 0,269     | 0,276    | 0,619      | 
+| Random Forest          | 0,947    | 0,200    | 0,597     | 0,300    | 0,596      | 
+| XGBoost                | 0,948    | 0,239    | 0,580     | 0,338    | 0,614      |
+| LGBM                   | 0,949    | 0,224    | 0,614     | 0,329    | 0,608      | 
 
 # DISCLAIMER
 El presente proyecto ha sido realizado con fines investigativos. Bajo ninguna circunstancia debe ser utilizado como reemplazo del consejo de su médico tratante y/o sistema de salud. Los resultados del modelo no sustituyen el juicio profesional de un médico u otro profesional de la salud calificado. Se recomienda consultar siempre con un profesional médico cualquier decisión respecto de su salud. El autor no se hace responsable por cualquier error, omisión o interpretación errónea de los resultados generados
