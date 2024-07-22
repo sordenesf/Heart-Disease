@@ -20,6 +20,6 @@ Aproximadamente 1 de cada 5 personas en Estados Unidos murió a causa de una enf
 # DISCLAIMER
 El presente proyecto ha sido realizado con fines investigativos. Bajo ninguna circunstancia debe ser utilizado como reemplazo del consejo de su médico tratante y/o sistema de salud. Los resultados del modelo no sustituyen el juicio profesional de un médico u otro profesional de la salud calificado. Se recomienda consultar siempre con un profesional médico cualquier decisión respecto de su salud. El autor no se hace responsable por cualquier error, omisión o interpretación errónea de los resultados generados
 
-# Referencias
+# REFERENCIAS
 1. https://www.mayoclinic.org/es/diseases-conditions/heart-disease/symptoms-causes/syc-20353118
 2. https://www.cdc.gov/heart-disease/about/index.html
