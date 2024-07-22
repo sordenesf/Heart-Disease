@@ -16,6 +16,13 @@ Lamentablemente, en muchos casos la Enfermedad cardíaca se manifiesta en forma 
 
 Aproximadamente 1 de cada 5 personas en Estados Unidos murió a causa de una enfermedad cardíaca en 2022<sup>2</sup>
 
+# MODELO
+
+Previo a la etapa de modelación, se estudiaron las características del conjuntos de datos buscando identificar patrones en los mismo. Entre las variables que resaltan del estudio se encuentran la edad, sexo, índice de masa corporal, piezas dentales removidas, entre otras:
+
+![Incidencia por edad y piezas dentales removidas](/img/Incidencia por edad y dientes removidos.png "Incidencia por edad y piezas dentales removidas")
+
+
 
 # DISCLAIMER
 El presente proyecto ha sido realizado con fines investigativos. Bajo ninguna circunstancia debe ser utilizado como reemplazo del consejo de su médico tratante y/o sistema de salud. Los resultados del modelo no sustituyen el juicio profesional de un médico u otro profesional de la salud calificado. Se recomienda consultar siempre con un profesional médico cualquier decisión respecto de su salud. El autor no se hace responsable por cualquier error, omisión o interpretación errónea de los resultados generados
