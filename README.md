@@ -39,6 +39,19 @@ En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dat
 | XGBoost                |   0,948   |   0,239   |   0,580   |   0,338   |   0,614   | Elimincación NaN + recorte outliers + escalamiento |
 | LGBM                   |   0,949   |   0,224   |   0,614   |   0,329   |   0,608   | Eliminación NaN + escalamiento |
 
+
+
+|Modelo   |Accuracy	|Recall	|Precision	|F1	|ROC_AUC	|AUC|
+|---------|----------|----------|---------|---------|---------|---------|--------|
+|Regresión Logística	|  0,894	|  0,664	|  0,297	|  0,410	|  0,786	|  0,89  |
+|Árbol de decisión	  |  0,924	|  0,562	|  0,378	|  0,452	|  0,754	|  0,84  |
+|Random Forest	      |  0,913	|  0,590	|  0,344	|  0,434	|  0,761	|  0,87  |
+|XGBoost	            |  0,924	|  0,508	|  0,368	|  0,427	|  0,728	|  0,87  |
+|LightGBM	            |  0,893	|  0,660	|  0,294	|  0,407	|  0,784	|  0,89  |
+
+
+
+
 # DISCLAIMER
 El presente proyecto ha sido realizado con fines investigativos. Bajo ninguna circunstancia debe ser utilizado como reemplazo del consejo de su médico tratante y/o sistema de salud. Los resultados del modelo no sustituyen el juicio profesional de un médico u otro profesional de la salud calificado. Se recomienda consultar siempre con un profesional médico cualquier decisión respecto de su salud. El autor no se hace responsable por cualquier error, omisión o interpretación errónea de los resultados generados
 
