@@ -31,6 +31,7 @@ Los modelos propuestos fueron los siguientes:
 
 En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dataset. Una vez realizadas, se seleccionó la configuración con las mejores métricas de cada uno de ellos para, posteriormente, continuar con la optimización de hiperparámetros:
 
+
 |        MODELO          | Accuracy  |   Recall  | Precision | F1 score  |  ROC AUC  | Configuración |
 |------------------------|-----------|-----------|-----------|-----------|-----------|---------------|
 | Regresión logística    |   0,948   |   0,253   |   0,253   |   0,253   |   0,253   | Eliminación NaN |           
@@ -39,7 +40,9 @@ En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dat
 | XGBoost                |   0,948   |   0,239   |   0,580   |   0,338   |   0,614   | Elimincación NaN + recorte outliers + escalamiento |
 | LGBM                   |   0,949   |   0,224   |   0,614   |   0,329   |   0,608   | Eliminación NaN + escalamiento |
 
+
 **Tabla 1 - Métricas mejor preprocesamiento de datos para cada modelo**
+
 
 
 |Modelo               | Accuracy| Recall	|Precision|  F1   	| ROC_AUC	|
@@ -49,6 +52,7 @@ En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dat
 |Random Forest	      |  0,913	|  0,590	|  0,344	|  0,434	|  0,761	|
 |XGBoost	            |  0,924	|  0,508	|  0,368	|  0,427	|  0,728	|
 |LightGBM	            |  0,893	|  0,660	|  0,294	|  0,407	|  0,784	|
+
 
 **Tabla 2 - Métricas con hiperparámetros optimizados para cada modelo**
 
