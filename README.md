@@ -29,7 +29,7 @@ Los modelos propuestos fueron los siguientes:
 - XGBoost
 - LGBM
 
-En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dataset. Una vez realizadas, se seleccionó la configuración con las mejores métricas de cada uno de ellos para, posteriormente, continuar con la optimización de hiperparámetros:
+En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dataset. Una vez realizadas, se seleccionó la configuración con las mejores métricas de cada uno de ellos:
 
 <br />
 
@@ -41,13 +41,14 @@ En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dat
 | XGBoost                |   0,948   |   0,239   |   0,580   |   0,338   |   0,614   | Elimincación NaN + recorte outliers + escalamiento |
 | LGBM                   |   0,949   |   0,224   |   0,614   |   0,329   |   0,608   | Eliminación NaN + escalamiento |
 
-<br />
 
 **Tabla 1 - Métricas mejor preprocesamiento de datos para cada modelo**
 
 <br />
 
-|Modelo               | Accuracy| Recall	|Precision|  F1   	| ROC_AUC	|
+Posteriormente, se realiza optimización de hiperparámetros mediante Randomized Search Cross Validation:
+
+|      MODELO         | Accuracy| Recall	|Precision|  F1   	| ROC AUC	|
 |---------------------|---------|---------|---------|---------|---------|
 |Regresión Logística	|  0,894	|  0,664	|  0,297	|  0,410	|  0,786	|
 |Árbol de decisión	  |  0,924	|  0,562	|  0,378	|  0,452	|  0,754	|
@@ -55,11 +56,14 @@ En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dat
 |XGBoost	            |  0,924	|  0,508	|  0,368	|  0,427	|  0,728	|
 |LightGBM	            |  0,893	|  0,660	|  0,294	|  0,407	|  0,784	|
 
-<br />
 
 **Tabla 2 - Métricas con hiperparámetros optimizados para cada modelo**
 
 <br />
+
+Finalmente, se escoge el modelo de Decision Tree. 
+
+![Árbol de decisión óptimo (5 niveles)](/img/DecisionTreeOptimo.PNG "Decision tree óptimo")
 
 
 # DISCLAIMER
