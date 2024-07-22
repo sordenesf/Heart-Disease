@@ -4,7 +4,7 @@ Heart Disease es un proyecto de Machine Learning cuya finalidad es elaborar un m
 Los datos utilizados para el entrenamiento del modelo (bajo licencia CC0: Public Domain) pueden ser consultados desde el siguiente enlace: 
 https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/ 
 
-# ¿QUÉ ES ENFERMDAD CARDÍACA? IMPORTANCIA DE DETECTARLA A TIEMPO
+# ¿QUÉ ES ENFERMDAD CARDÍACA? IMPORTANCIA DE SU DETECCIÓN A TIEMPO
 Se entiende por "enfermedad cardíaca" a un variado grupo de afecciones cardíacas<sup>1</sup>:
 - Enfermedad de los vasos sanguíneos, como enfermedad de las arterias coronarias
 - Latidos cardíacos irregulares (arritmia)
