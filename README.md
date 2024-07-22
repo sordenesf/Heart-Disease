@@ -1,8 +1,8 @@
 # INTRODUCCIÓN
 Heart Disease es un proyecto de Machine Learning cuya finalidad es elaborar un modelo predictivo sobre el riesgo de sufrir enfermedad cardíaca en personas mayores de edad. Como insumo para el desarrollo del modelo, se han utilizado registros de encuestas realizadas por CDC como parte del Sistema de Vigilancia de Factores de Riesgo del Comportamiento (BRFSS), los cuales fueron recopilados durante el año 2022.
 
-Los datos utilizados para el entrenamiento del modelo pueden ser consultados desde el siguiente enlace: 
-https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/ bajo licencia CC0 Public Domain
+Los datos utilizados para el entrenamiento del modelo (bajo licencia CC0: Public Domain) pueden ser consultados desde el siguiente enlace: 
+https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease/ 
 
 # ¿QUÉ ES ENFERMDAD CARDÍACA? IMPORTANCIA DE DETECTARLA A TIEMPO
 Se entiende por "enfermedad cardíaca" a un variado grupo de afecciones cardíacas<sup>1</sup>:
