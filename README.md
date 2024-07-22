@@ -31,13 +31,13 @@ Los modelos propuestos fueron los siguientes:
 
 En cada uno de ellos se efectuaron pruebas con distintas configuraciones del dataset. Una vez realizadas, se seleccionó la configuración con las mejores métricas de cada uno de ellos para, posteriormente, continuar con la optimización de hiperparámetros:
 
-| MODELO                 | Accuracy | Recall   | Precision | F1 score | ROC AUC    |
-|------------------------|----------|----------|-----------|----------|------------|
-| Regresión logística    | 0,948    | 0,253    | 0,253     | 0,253    | 0,253      |            
-| Decision tree          | 0,917    | 0,284    | 0,269     | 0,276    | 0,619      | 
-| Random Forest          | 0,947    | 0,200    | 0,597     | 0,300    | 0,596      | 
-| XGBoost                | 0,948    | 0,239    | 0,580     | 0,338    | 0,614      |
-| LGBM                   | 0,949    | 0,224    | 0,614     | 0,329    | 0,608      | 
+|        MODELO          | Accuracy  |   Recall  | Precision | F1 score  |  ROC AUC  | Configuración |
+|------------------------|-----------|-----------|-----------|-----------|-----------|---------------|
+| Regresión logística    |   0,948   |   0,253   |   0,253   |   0,253   |   0,253   | Eliminación NaN |           
+| Decision tree          |   0,917   |   0,284   |   0,269   |   0,276   |   0,619   | Eliminación NaN + escalamiento |
+| Random Forest          |   0,947   |   0,200   |   0,597   |   0,300   |   0,596   | Imputación NaN + recorte outliers |
+| XGBoost                |   0,948   |   0,239   |   0,580   |   0,338   |   0,614   | Elimincación NaN + recorte outliers + escalamiento |
+| LGBM                   |   0,949   |   0,224   |   0,614   |   0,329   |   0,608   | Eliminación NaN + escalamiento |
 
 # DISCLAIMER
 El presente proyecto ha sido realizado con fines investigativos. Bajo ninguna circunstancia debe ser utilizado como reemplazo del consejo de su médico tratante y/o sistema de salud. Los resultados del modelo no sustituyen el juicio profesional de un médico u otro profesional de la salud calificado. Se recomienda consultar siempre con un profesional médico cualquier decisión respecto de su salud. El autor no se hace responsable por cualquier error, omisión o interpretación errónea de los resultados generados
