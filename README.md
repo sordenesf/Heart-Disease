@@ -63,7 +63,7 @@ Posteriormente, se realiza optimización de hiperparámetros mediante Randomized
 
 Finalmente, se escoge el modelo de Decision Tree. 
 
-![Árbol de decisión óptimo (5 niveles)](/img/DecisionTreeOptimo.PNG "Decision tree óptimo")
+![Árbol de decisión óptimo (5 niveles)](/img/DecisionTreeOptimo.png "Decision tree óptimo")
 
 
 # DISCLAIMER
