@@ -64,8 +64,7 @@ Posteriormente, se realiza optimización de hiperparámetros mediante Randomized
 Finalmente, se escoge el modelo de Decision Tree que obtuvo las mejores métricas con el F1 score (mejor balance entre Recall y Precision):
 
 ![Árbol de decisión óptimo (5 niveles)](/img/DecisionTreeOptimo.png "Decision tree óptimo")
-
-**Decisipon tree de 5 niveles**
+**Decision tree de 5 niveles**
 
 # DISCLAIMER
 El presente proyecto ha sido realizado con fines investigativos. Bajo ninguna circunstancia debe ser utilizado como reemplazo del consejo de su médico tratante y/o sistema de salud. Los resultados del modelo no sustituyen el juicio profesional de un médico u otro profesional de la salud calificado. Se recomienda consultar siempre con un profesional médico cualquier decisión respecto de su salud. El autor no se hace responsable por cualquier error, omisión o interpretación errónea de los resultados generados
